@@ -4,10 +4,11 @@ Utility for previewing TIYO Lesson content while locally editing. Running it wil
 
 This is hacky and could use a lot of polish. PRs welcome.
 
-Clone it, `cd` in.
+Clone it, `cd` in, and:
 
+    npm install
     npm start ./path/to/markdown.md
 
-And it looks like this in your browser:
+It looks like this in your browser:
 
 ![Preview](preview.png)

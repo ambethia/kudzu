@@ -14,7 +14,7 @@ const updatePreview = (newHTML) => {
   let diff = findDiff(lastHTML, newHTML);
   let position = diff / newHTML.length;
   if (position > 0);
-    window.scrollTo(0, (document.body.clientHeight * position));
+    // window.scrollTo(0, (document.body.clientHeight * position));
 
   lastHTML = newHTML;
   shameless();

@@ -6,7 +6,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ## Supports Runnable Code!
 
 ```js runnable
-console.log(42);
+function square(n) {
+  return n * n;
+}
+```
+
+```js
+function square(n) {
+  return n * n;
+}
 ```
 
 ### And regular code:
